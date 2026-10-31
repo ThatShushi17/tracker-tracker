@@ -1,0 +1,1 @@
+export const TRACKER_DATA_KEY = "tracker_data"
