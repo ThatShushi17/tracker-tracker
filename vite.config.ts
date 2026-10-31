@@ -3,5 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [svelte()],
+    plugins: [svelte()],
+    base: '/tracker-tracker/'
 })
