@@ -37,7 +37,7 @@
 
 <main>
     <button onclick={() => importJSONFileInput.click()}>Import JSON</button>
-    <button onclick={trackerList.exportData}>Export JSON</button>
+    <button onclick={() => trackerList.exportData()}>Export JSON</button>
 
     <form onsubmit={createTracker}>
         <input
